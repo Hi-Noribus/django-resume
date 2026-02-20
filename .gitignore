@@ -1,0 +1,31 @@
+# Environment variables (API keys, secrets)
+.env
+.env.*
+secrets.py
+*.json
+!manifest.json  # Example of how to 'un-ignore' specific JSONs if needed
+
+# Database files
+*.db
+*.sqlite3
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
+
+# IDEs (VS Code, PyCharm)
+.vscode/
+.idea/
+# Virtual Environments
+.virt/
+venv/
+.venv/
+env/
